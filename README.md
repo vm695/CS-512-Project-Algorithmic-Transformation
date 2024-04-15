@@ -2,20 +2,19 @@
 ## Introduction
 
 The objective of this project is to perform an algorithmic transformation from ZOE to Subset Sum Problem. 
-This project presents an algorithmic transformation for converting Zero-One Equation (ZOE) problems into Subset Sum problems. Utilizing efficient encoding techniques, ZOE instances in CSV format are transformed into integer representations suitable for Subset Sum analysis. The transformation involves encoding each column into integers, forming a Subset Sum problem.The system, optimized for scalability, handles matrices up to 20x20 dimensions. This transformation enables leveraging Subset Sum-solving methodologies to efficiently tackle ZOE challenges.
+This project presents an algorithmic transformation for converting Zero-One Equation (ZOE) problems into Subset Sum problems. Utilizing efficient encoding techniques, ZOE instances in CSV format are transformed into integer representations suitable for Subset Sum analysis. The transformation involves encoding each column into integers, forming a Subset Sum problem. This program, optimized for scalability, handles matrices up to 20x20 dimensions. This transformation enables leveraging Subset Sum-solving methodologies to efficiently tackle ZOE challenges.
 
 ## Step 1: Place the input file
 
-A Comma Separated Values (CSV) file "input.csv" with m x n matrix containing only 0 and 1's.
-The file should have in total m rows, and each row up to n values and is placed in the same path as the script file. The values can be only 0 or 1. s, or actions will need to be reflected in
-these `sX-runtime.json` files.
+A Comma Separated Values (CSV) file `input.csv` with m x n matrix containing only 0 and 1's.
+The file should have in total m rows, and each row up to n values and is placed in the same path as the script file. The values can be only 0 or 1.
 
 ## Step 2: Run the Script file
 
-Run the "Alg_Transformation_script.py" file. this will read the input file "input.csv" and validates it. It then performs the algorithmic transformation from the input ZOE instance to a Subset Sum Problem. If the transformed subset sum problem has a solution, it is then converted into a ZOE solution.
+Run the `Alg_Transformation_script.py` file. this will read the input file `input.csv` and validates it. It then performs the algorithmic transformation from the input ZOE instance to a Subset Sum Problem. If the transformed subset sum problem has a solution, it is then converted into a ZOE solution.
 
 ## Step 3 : Output
-The Output is printed on the terminal and also the output ZOE vector is stored in a output.csv file, present in the same folder as the script and input file.
+The Output is printed on the terminal and also the output ZOE vector is stored in a `output.csv` file, present in the same folder as the script and input file.
 
 ## Transformation Process
 The transformation algorithm from ZOE to SUBSET SUM is done as below
