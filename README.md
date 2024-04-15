@@ -28,4 +28,5 @@ With the ZOE instance transformed into a Subset Sum instance, the goal shifts to
 ### Converting the solution
 Upon successful resolution of the Subset Sum problem, the obtained solution is verified for its feasibility. If a valid solution exists, it indicates the presence of a subset of integers that sums up to the target value. Assuming the Subset Sum instance is solvable, the final step involves translating the obtained solution back into a solution for the original ZOE problem.This translation process entails mapping the integers comprising the Subset Sum solution to their corresponding binary decision variables in the ZOE instance. This includes assigning 1 to a variable x<sub>i</sub> if the integer obtained form the i<sup>th</sup> column is present in the solution of SUBSET SUM.
 
-<img width="1081" alt="image" src="https://github.com/vm695/CS-512-Project-Algorithmic-Transformation/assets/167110841/578f3eee-2054-4ff1-8bff-f3f35eeb0867">
+<img width="1444" alt="image" src="https://github.com/vm695/CS-512-Project-Algorithmic-Transformation/assets/167110841/81e04e47-29af-442b-9f51-7e1e6cf3b972">
+
